@@ -2,53 +2,44 @@
 
 <head>
     <style>
-        * {
-            border: 2px dashed black;
-        }
-
-        html {
+        #tomato1,
+        #tomato2,
+        #tomato3 {
             background-color: tomato;
         }
 
-        body {
+        .teal {
             background-color: teal;
-            margin: 0;
-        }
-
-        div {
-            margin: 0px;
-            padding: 20px;
-            border: 2px solid black;
 
         }
 
-        #first {
-            background-color: red;
-        }
-
-        #second {
-            background-color: rosybrown;
-        }
-
-        #third {
-            background-color: royalblue;
-        }
-
-        #fourth {
-            background-color: seagreen;
+        .btn {
+            color: rgb(189, 255, 67);
+            padding: 5px 10px;
+            border-radius: 10px;
         }
     </style>
 </head>
 
 <body>
-    <div id="first">
-        <div id="second">
-            <div id="third">
-                <div id="fourth">
-                    <span>hello</span>
-                </div>
-            </div>
-        </div>
-    </div>
+    <p>
+        <span>hello</span>
+        <span id="tomato1">hello</span>
+        <span>hello</span>
+        <span id="tomato2">hello</span>
+        <span>hello</span>
+        <span id="tomato3">hello</span>
+        <span>hello</span>
+    </p>
+    <p>
+        <span class="btn">hello</span>
+        <span class="btn teal">hello</span>
+        <span class>hello</span>
+        <span class="teal">hello</span>
+        <span class>hello</span>
+        <span class="teal btn">hello</span>
+        <span class>hello</span>
+    </p>
+
 
 </body>
